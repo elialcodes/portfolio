@@ -32,6 +32,7 @@ export default function CardProject({
         alt={project.alt}
         height="180"
         image={project.src}
+        style={{ borderBottom: '0.2px solid black' }}
       />
       <CardContent
         style={{
@@ -63,7 +64,7 @@ export default function CardProject({
             style={{
               borderColor: 'darkorange',
               color: 'rgb(255,132,0)',
-              backgroundColor: 'antiquewhite',
+              backgroundColor: 'white',
               borderRadius: '1rem',
               width: isMediumScreen ? '4rem' : '5rem',
               fontSize: isMediumScreen ? '0.7rem' : '1rem',
@@ -79,7 +80,7 @@ export default function CardProject({
             style={{
               borderColor: 'darkorange',
               color: 'rgb(255,132,0)',
-              backgroundColor: 'antiquewhite',
+              backgroundColor: 'white',
               borderRadius: '1rem',
               width: isMediumScreen ? '4rem' : '5rem',
               fontSize: isMediumScreen ? '0.7rem' : '1rem',

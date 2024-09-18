@@ -79,7 +79,7 @@ export const pictures: Picture[] = [
 export const projects: ProjectCard[] = [
   {
     title: 'E-commerce',
-    src: '/projects/my-ecommerce.png',
+    src: '/projects/my-ecommerce.jpeg',
     alt: 'proyecto Mi e-commerce',
     description: 'Tienda on-line',
     linkVercel: 'https://my-ecommerce-inky.vercel.app/',
@@ -87,7 +87,7 @@ export const projects: ProjectCard[] = [
   },
   {
     title: 'Tres en raya',
-    src: '/projects/tic-tac-toe-game.png',
+    src: '/projects/tic-tac-toe-game.jpeg',
     alt: 'proyecto Tres en raya',
     description: 'Juego del tres en raya',
     linkVercel: 'https://tic-tac-toe-game-smoky-beta.vercel.app/',
@@ -95,7 +95,7 @@ export const projects: ProjectCard[] = [
   },
   {
     title: 'To do list',
-    src: '/projects/to-do-app.png',
+    src: '/projects/to-do-app.jpeg',
     alt: 'proyecto Tareas por hacer',
     description: 'Agenda con tareas por hacer',
     linkVercel: 'https://to-do-list-nine-flax-32.vercel.app/',
@@ -103,7 +103,7 @@ export const projects: ProjectCard[] = [
   },
   {
     title: 'Traductor',
-    src: '/projects/translator.png',
+    src: '/projects/translator.jpeg',
     alt: 'proyecto Traductor',
     description: 'Traductor de 6 idiomas',
     linkVercel: 'https://translator-nu-jade.vercel.app',
@@ -111,7 +111,7 @@ export const projects: ProjectCard[] = [
   },
   {
     title: 'Memory',
-    src: '/projects/memory.png',
+    src: '/projects/memory.jpeg',
     alt: 'proyecto Memory Game',
     description: 'Juego de hacer parejas',
     linkVercel: 'https://elialcodes.github.io/memory-game-Domestika/',
@@ -119,7 +119,7 @@ export const projects: ProjectCard[] = [
   },
   {
     title: 'Rick-Morty',
-    src: '/projects/rick-and-morty.png',
+    src: '/projects/rick-and-morty.jpeg',
     alt: 'proyecto Memory Game',
     description: 'Buscador de personajes',
     linkVercel: 'https://rick-and-morty-character-search.vercel.app/',
@@ -127,10 +127,11 @@ export const projects: ProjectCard[] = [
   },
   {
     title: 'Portfolio',
-    src: '/projects/portfolio.png',
+    src: '/projects/portfolio.jpeg',
     alt: 'proyecto Memory Game',
     description: 'Mi porfolio',
-    linkVercel: 'https://rick-and-morty-character-search.vercel.app/',
+    linkVercel:
+      'https://portfolio-mgl187oq7-noelia-abascals-projects.vercel.app/',
     linkGitHub: 'https://github.com/elialcodes/portfolio',
   },
 ];
