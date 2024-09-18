@@ -109,6 +109,30 @@ export const projects: ProjectCard[] = [
     linkVercel: 'https://translator-nu-jade.vercel.app',
     linkGitHub: 'https://github.com/elialcodes/translator',
   },
+  {
+    title: 'Memory',
+    src: '/projects/memory.png',
+    alt: 'proyecto Memory Game',
+    description: 'Juego de hacer parejas',
+    linkVercel: 'https://elialcodes.github.io/memory-game-Domestika/',
+    linkGitHub: 'https://github.com/elialcodes/memory-game-Domestika',
+  },
+  {
+    title: 'Rick-Morty',
+    src: '/projects/rick-and-morty.png',
+    alt: 'proyecto Memory Game',
+    description: 'Buscador de personajes',
+    linkVercel: 'https://rick-and-morty-character-search.vercel.app/',
+    linkGitHub: 'https://github.com/elialcodes/Rick-and-Morty-character-search',
+  },
+  {
+    title: 'Portfolio',
+    src: '/projects/portfolio.png',
+    alt: 'proyecto Memory Game',
+    description: 'Mi porfolio',
+    linkVercel: 'https://rick-and-morty-character-search.vercel.app/',
+    linkGitHub: 'https://github.com/elialcodes/portfolio',
+  },
 ];
 
 export const icons: Icon[] = [
