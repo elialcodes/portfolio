@@ -69,6 +69,20 @@ main {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 1400px) {
+  header {
+    padding: 2rem 14rem;
+  }
+
+  main {
+    padding: 0 14rem;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 1023px) {
   header {
     justify-content: space-between;

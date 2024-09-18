@@ -3,3 +3,10 @@
   flex-direction: column;
   gap: 1rem;
 }
+
+@media (min-width: 1400px) {
+  .about-text {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+}

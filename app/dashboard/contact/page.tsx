@@ -152,7 +152,7 @@ export default function Contact(): JSX.Element {
             alt="computer and coffee"
             width={336}
             height={360}
-            style={{ borderRadius: '1rem' }}
+            style={{ borderRadius: '1rem', marginTop: '0.5rem' }}
           />
         </motion.div>
       </div>
