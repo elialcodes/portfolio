@@ -1,0 +1,47 @@
+.footer {
+  align-items: center;
+  border-top: 1px solid lightseagreen;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin: 1.5rem auto;
+  padding-top: 1.5rem;
+  width: 79%;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.heart {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.heart-icon {
+  animation: beat 1s infinite alternate;
+  color: lightseagreen;
+  transform: scale(0.7);
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    gap: 1rem;
+    width: 90%;
+  }
+
+  .icons {
+    gap: 0.5rem;
+  }
+}

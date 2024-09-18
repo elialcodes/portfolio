@@ -1,0 +1,22 @@
+.carousel {
+  border-top: 1px solid lightseagreen;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.marquee-carousel {
+  display: flex;
+  gap: 1rem;
+}
+
+.image-carousel {
+  border-radius: 3%;
+  flex-shrink: 0;
+}
+
+@media (min-width: 1200px) {
+  .carousel {
+    margin-top: 4rem;
+  }
+}
