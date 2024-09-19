@@ -32,7 +32,7 @@ export default function CardProject({
         alt={project.alt}
         height="180"
         image={project.src}
-        style={{ borderBottom: '0.2px solid black' }}
+        style={{ borderBottom: '0.2px solid lightseagreen' }}
       />
       <CardContent
         style={{

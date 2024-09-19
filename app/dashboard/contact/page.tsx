@@ -24,6 +24,10 @@ export default function Contact(): JSX.Element {
     message: '',
   });
 
+  const idService: string = process.env.NEXT_PUBLIC_idService || '';
+  const idTemplate: string = process.env.NEXT_PUBLIC_idTemplate || '';
+  const userEmailJS: string = process.env.NEXT_PUBLIC_userEmailJS || '';
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
       ...formData,
@@ -42,10 +46,14 @@ export default function Contact(): JSX.Element {
 
     emailjs
       .sendForm(
-        'service_vgtp49q', // El ID de servicio que te da EmailJS
-        'template_6hwap38', // El ID de plantilla que creaste en EmailJS
-        e.target as HTMLFormElement, // El formulario que estás enviando
-        'ibdZuISQqbKiubK_T', // El ID del usuario que te da EmailJS
+        idService,
+        idTemplate,
+        e.target as HTMLFormElement,
+        userEmailJS,
+        // 'service_vgtp49q', // El ID de servicio que te da EmailJS
+        // 'template_6hwap38', // El ID de plantilla que creaste en EmailJS
+        // e.target as HTMLFormElement, // El formulario que estás enviando
+        // 'ibdZuISQqbKiubK_T', // El ID del usuario que te da EmailJS
       )
       .then(
         (result) => {
