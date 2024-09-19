@@ -26,9 +26,9 @@ export type Icon = {
 };
 
 export const links: Page[] = [
-  { name: 'Sobre mí', href: '/dashboard/about-me' },
-  { name: 'Proyectos', href: '/dashboard/projects' },
-  { name: 'Contacto', href: '/dashboard/contact' },
+  { name: 'Sobre mí', href: '/about-me' },
+  { name: 'Proyectos', href: '/projects' },
+  { name: 'Contacto', href: '/contact' },
 ];
 
 export const pictures: Picture[] = [
