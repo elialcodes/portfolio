@@ -120,7 +120,7 @@ export const projects: ProjectCard[] = [
   {
     title: 'Rick-Morty',
     src: '/projects/rick-and-morty.jpeg',
-    alt: 'proyecto Memory Game',
+    alt: 'proyecto Rick and Morty',
     description: 'Buscador de personajes',
     linkVercel: 'https://rick-and-morty-character-search.vercel.app/',
     linkGitHub: 'https://github.com/elialcodes/Rick-and-Morty-character-search',
@@ -128,10 +128,10 @@ export const projects: ProjectCard[] = [
   {
     title: 'Portfolio',
     src: '/projects/portfolio.jpeg',
-    alt: 'proyecto Memory Game',
+    alt: 'proyecto Porfolio',
     description: 'Mi porfolio',
     linkVercel:
-      'https://portfolio-mgl187oq7-noelia-abascals-projects.vercel.app/',
+      'https://portfolio-7cmrhbt61-noelia-abascals-projects.vercel.app/',
     linkGitHub: 'https://github.com/elialcodes/portfolio',
   },
 ];

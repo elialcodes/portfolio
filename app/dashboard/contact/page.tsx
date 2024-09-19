@@ -46,14 +46,10 @@ export default function Contact(): JSX.Element {
 
     emailjs
       .sendForm(
-        idService,
-        idTemplate,
-        e.target as HTMLFormElement,
-        userEmailJS,
-        // 'service_vgtp49q', // El ID de servicio que te da EmailJS
-        // 'template_6hwap38', // El ID de plantilla que creaste en EmailJS
-        // e.target as HTMLFormElement, // El formulario que estás enviando
-        // 'ibdZuISQqbKiubK_T', // El ID del usuario que te da EmailJS
+        idService, // El ID de servicio que te da EmailJS
+        idTemplate, // El ID de plantilla que creaste en EmailJS
+        e.target as HTMLFormElement, // El formulario que estás enviando
+        userEmailJS, // El ID del usuario que te da EmailJS
       )
       .then(
         (result) => {

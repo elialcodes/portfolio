@@ -2,11 +2,16 @@
 
 Hello! This is my personal porfolio, where I show all my skills an proyects.
 
-I have tried to share a part of my like and works. I hope you like it!
+I have tried to share part of my works and hobbies with you. I hope you like it!
 
 ## Features :star:
 
-I´m working on it.
+- Landing page and 3 more pages using the new route segments of Next.js.
+- Layout Next.js file to show always header and footer to the user.
+- Usable form with EmailJS.
+- Animations.
+- Some Material UI components.
+- Responsive design.
 
 ## Tech Stack :books:
 
@@ -32,4 +37,4 @@ Start the project:
 
 ## Link :link:
 
-https://portfolio-mgl187oq7-noelia-abascals-projects.vercel.app/
+https://portfolio-7cmrhbt61-noelia-abascals-projects.vercel.app/
