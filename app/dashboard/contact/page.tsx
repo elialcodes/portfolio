@@ -5,6 +5,9 @@ import { inria, montserrat } from 'fonts/fonts';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import * as React from 'react';
+import Alert from '@mui/material/Alert';
+import CheckIcon from '@mui/icons-material/Check';
 import { useMediaQuery } from '@mui/material';
 import * as motion from 'framer-motion/client';
 import { useState } from 'react';
@@ -23,6 +26,9 @@ export default function Contact(): JSX.Element {
     email: '',
     message: '',
   });
+
+  const [result, setResult] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   const idService: string = process.env.NEXT_PUBLIC_idService || '';
   const idTemplate: string = process.env.NEXT_PUBLIC_idTemplate || '';
@@ -53,10 +59,12 @@ export default function Contact(): JSX.Element {
       )
       .then(
         (result) => {
-          alert('Mensaje enviado');
+          setResult('Mensaje enviado');
+          setError(null);
         },
         (error) => {
-          alert('Ocurrió un error');
+          setResult(null);
+          setError('Error');
         },
       );
     e.currentTarget.reset();
@@ -129,20 +137,52 @@ export default function Contact(): JSX.Element {
             required
             style={{ width: isMediumScreen ? '18rem' : '21rem' }}
           />
-          <Button
-            type="submit"
-            variant="contained"
+          <div
+            className="button-and-alert"
             style={{
-              borderColor: 'darkorange',
-              color: 'rgb(255,132,0)',
-              backgroundColor: 'antiquewhite',
-              width: '8rem',
-              borderRadius: '1rem',
-              margin: '1rem auto',
+              alignItems: 'center',
+              display: 'flex',
+              gap: '1rem',
+              marginTop: '1rem',
+              width: isMediumScreen ? '18rem' : '21rem',
             }}
           >
-            Enviar
-          </Button>
+            <Button
+              type="submit"
+              variant="contained"
+              style={{
+                borderColor: 'darkorange',
+                color: 'rgb(255,132,0)',
+                backgroundColor: 'antiquewhite',
+                width: '6rem',
+                borderRadius: '1rem',
+              }}
+            >
+              Enviar
+            </Button>
+            {result && (
+              <Alert
+                severity="success"
+                onClose={() => {
+                  setResult('');
+                }}
+                style={{ padding: '0.1rem 0.4rem' }}
+              >
+                Mensaje enviado
+              </Alert>
+            )}
+            {error && (
+              <Alert
+                severity="error"
+                onClose={() => {
+                  setError('');
+                }}
+                style={{ padding: '0.1rem 0.4rem' }}
+              >
+                Ha habido un error
+              </Alert>
+            )}
+          </div>
         </Box>
         <motion.div
           initial={{ opacity: 0, x: '20%' }}

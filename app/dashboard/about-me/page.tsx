@@ -32,7 +32,8 @@ export default function AboutMe(): JSX.Element {
           <p>
             Para que me conozcas un poco más, me encanta leer, la playa, tengo
             mil plantas en casa y me gusta mucho programar con una taza de café
-            en la mano. Ah, y lo más importante, soy madre de 2 adolescentes a
+            en la mano. Tengo una familia maravillosa que me ha apoyado en esta
+            nueva andadura y lo más importante, soy madre de 2 adolescentes a
             los que adoro (vale, esto no siempre...).
           </p>
           <p>
