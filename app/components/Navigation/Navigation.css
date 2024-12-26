@@ -12,12 +12,13 @@
 }
 
 .normal-li:hover {
-  color: #074e41;
+  color: darkorange;
 }
 
 .li-focus {
   border-bottom: 1px solid antiquewhite;
   padding-bottom: 0.5rem;
+  cursor: default;
 }
 
 .li-focus:hover {

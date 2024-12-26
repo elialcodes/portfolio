@@ -7,7 +7,6 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import * as React from 'react';
 import Alert from '@mui/material/Alert';
-import CheckIcon from '@mui/icons-material/Check';
 import { useMediaQuery } from '@mui/material';
 import * as motion from 'framer-motion/client';
 import { useState } from 'react';

@@ -117,23 +117,6 @@ export const projects: ProjectCard[] = [
     linkVercel: 'https://elialcodes.github.io/memory-game-Domestika/',
     linkGitHub: 'https://github.com/elialcodes/memory-game-Domestika',
   },
-  {
-    title: 'Rick-Morty',
-    src: '/projects/rick-and-morty.jpeg',
-    alt: 'proyecto Rick and Morty',
-    description: 'Buscador de personajes',
-    linkVercel: 'https://rick-and-morty-character-search.vercel.app/',
-    linkGitHub: 'https://github.com/elialcodes/Rick-and-Morty-character-search',
-  },
-  {
-    title: 'Portfolio',
-    src: '/projects/portfolio.jpeg',
-    alt: 'proyecto Porfolio',
-    description: 'Mi porfolio',
-    linkVercel:
-      'https://portfolio-7cmrhbt61-noelia-abascals-projects.vercel.app/',
-    linkGitHub: 'https://github.com/elialcodes/portfolio',
-  },
 ];
 
 export const icons: Icon[] = [
