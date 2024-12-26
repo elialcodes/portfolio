@@ -58,6 +58,8 @@ export function Navigation({ links }: NavigationProps): JSX.Element {
           onClick={handleClick}
           style={{
             display: isSmallScreen ? 'block' : 'none',
+            paddingRight: '0px',
+            textAlign: 'right',
           }}
         >
           <MenuIcon style={{ color: 'antiquewhite' }} />

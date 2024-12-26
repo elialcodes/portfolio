@@ -38,6 +38,7 @@
 @media (max-width: 767px) {
   .footer {
     gap: 1rem;
+    padding: 1.5rem 0;
     width: 90%;
   }
 

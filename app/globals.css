@@ -97,10 +97,11 @@ main {
 
 @media (max-width: 767px) {
   header {
-    padding: 2rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 
   main {
+    margin-top: 1rem;
     padding: 0 1.5rem;
   }
 }
