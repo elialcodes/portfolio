@@ -4,9 +4,9 @@
   display: flex;
   gap: 3rem;
   justify-content: center;
-  margin: 1.5rem auto;
-  padding-top: 1.5rem;
-  width: 79%;
+  margin: 1.5rem auto 0 auto;
+  padding: 1.5rem 0px;
+  width: 75%;
 }
 
 .icons {
@@ -37,9 +37,9 @@
 
 @media (max-width: 767px) {
   .footer {
+    font-size: 0.9rem;
     gap: 1rem;
-    padding: 1.5rem 0;
-    width: 90%;
+    width: 88%;
   }
 
   .icons {

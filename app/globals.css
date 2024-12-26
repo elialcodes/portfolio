@@ -3,10 +3,6 @@
   --foreground: #171717;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +13,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 * {
